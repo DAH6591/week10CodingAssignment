@@ -1,0 +1,92 @@
+body {
+    background: url("hockey-wallpaper2.jpg") no-repeat center center fixed;
+    background-size: cover;   
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+.form-title {
+    background-color:cornsilk;
+    width:fit-content;
+    color: maroon;
+    font-weight: 800;
+    margin-top: 4%;
+    font-size: larger;
+    opacity: 85%;
+    padding: 0.5%;
+}
+
+.card {
+    background-color:rgb(255, 119, 95);
+    opacity: 85%;
+    border-radius: 10px;
+    overflow:hidden; 
+}
+
+.form-group {
+    color:black;
+    font-size:larger;
+    font-weight: 800;
+    text-align: center;
+}
+
+#add-date {
+    color: maroon;
+    font-weight: 600;
+}
+#add-time {
+    color: maroon;
+    font-weight: 600;
+ }
+#add-home {
+    color: maroon;
+    font-weight: 600;
+}
+#add-away {
+    color: maroon;
+    font-weight: 600;
+}
+#add-networks {
+    color: maroon;
+    font-weight: 600;
+}
+#add-score {
+    color: maroon;
+    font-weight: 600;
+}
+ 
+#add {
+    width:fit-content;
+    text-align:center;
+    background-color: rgb(248, 98, 43);
+    margin-top:1.5%;
+    font-size:larger;
+    font-weight:800;
+    padding:0.5%;
+}
+
+.tableintro {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: cornsilk;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size:larger;
+    font-weight: 900;
+    color: maroon;
+    opacity:80%;
+}
+
+.table {
+    opacity: 95%;
+    color: maroon;  
+    border-radius: 10px;
+    overflow: hidden
+}
+
+td {
+    font-weight: 800;
+}
+
