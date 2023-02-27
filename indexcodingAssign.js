@@ -1,14 +1,3 @@
-/*let button = document.getElementById('btn');
-let content = document.getElementById('content');
-//document.getElementById('content').innerHTML = 'Goodbye.';//
-button.addEventListener('click', () => {
-    if (content.innerHTML == 'Goodbye.'){
-        content.innerHTML = 'Hello.'
-    } else {
-        content.innerHTML = 'Goodbye.'
-    }
-});*/
-
 let id = 0;
 
 document.getElementById('add').addEventListener('click', () => {

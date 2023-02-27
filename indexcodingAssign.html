@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>week10CodingAssignment</title>
     <link
       rel="stylesheet"
@@ -18,80 +18,108 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="indexcodingAssign.css" />    
-</head>
+    <link rel="stylesheet" href="indexcodingAssign.css" />
+  </head>
 
-<body>
-
-  <div class="container form-title">
+  <body>
+    <div class="container form-title">
       Please enter new game info into form below, as needed.
-  </div>
-    
-  <div class="container form mt-5">
-      <br>
-    <div class="card">
-      <div class="card-body">
-                        
-            <div class="row">
-              <div class="col-sm">
-                <div class="form-group">
-                    <label for="add-date">Game Date</label>
-                    <input type="text" class="form-control" id="add-date" placeholder="Game Date">
-                </div>
-              </div>  
-              <div class="col-sm">
-                <div class="form-group">
-                    <label for="add-time">Game Time</label>
-                    <input type="text" class="form-control" id="add-time" placeholder="Game Time">
-                </div>
-              </div>  
-              <div class="col-sm">
-                <div class="form-group">
-                    <label for="add-home">Home Team</label>
-                    <input type="text" class="form-control" id="add-home" placeholder="Home Team">
-                </div>
-              </div>  
-              <div class="col-sm">
-                <div class="form-group">
-                    <label for="add-away">Away Team</label>
-                    <input type="text" class="form-control" id="add-away" placeholder="Away Team">
-                </div>
-              </div>  
-              <div class="col-sm">
-                <div class="form-group">
-                    <label for="add-networks">Networks</label>
-                    <input type="text" class="form-control" id="add-networks" placeholder="Networks">
-                </div>
-              </div>  
+    </div>
 
-              <div class="col-sm">
-                <div class="form-group">
-                    <label for="add-score">Score</label>
-                    <input type="text" class="form-control" id="add-score" placeholder="Scores">
-                </div>
-              </div>   
-
-            </div>  
-            
-            <div class="container">
-              <div class="row">
-                
-              <button id="add" class="btn btn-danger form-control">Create New Game</button>
-                
+    <div class="container form mt-5">
+      <br />
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="add-date">Game Date</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="add-date"
+                  placeholder="Game Date"
+                />
               </div>
-            </div>         
-        
+            </div>
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="add-time">Game Time</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="add-time"
+                  placeholder="Game Time"
+                />
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="add-home">Home Team</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="add-home"
+                  placeholder="Home Team"
+                />
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="add-away">Away Team</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="add-away"
+                  placeholder="Away Team"
+                />
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="add-networks">Networks</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="add-networks"
+                  placeholder="Networks"
+                />
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="add-score">Score</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="add-score"
+                  placeholder="Scores"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <button id="add" class="btn btn-danger form-control">
+                Create New Game
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-      
+
     <div class="container tableintro">
-        <p>Upcoming NHL playoffs game schedule:</p>
+      <p>Upcoming NHL playoffs game schedule:</p>
     </div>
-    
+
     <div class="container table">
-    <table id="schedule"
-      class="table table-primary table-bordered border-dark table-hover">
+      <table
+        id="schedule"
+        class="table table-primary table-bordered border-dark table-hover"
+      >
         <tr>
           <th>Game Date</th>
           <th>Time</th>
@@ -109,7 +137,6 @@
           <td>ESPN, ESPN+</td>
           <td>3-1 Lightning</td>
           <td></td>
-
         </tr>
         <tr>
           <td>June 11</td>
@@ -119,13 +146,13 @@
           <td>ESPN, ESPN+</td>
           <td>2-1 Lightning</td>
           <td></td>
-        </tr>        
+        </tr>
       </table>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="indexcodingAssign.js"></script>    
-</body>
+    <script src="indexcodingAssign.js"></script>
+  </body>
 </html>
